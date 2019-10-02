@@ -1,18 +1,17 @@
-# upgradhackathon
- Kabaddi
+# upgradhackathon Kabaddi
 
 
-Winner and Player-Rating-Predictions
+# Winner and Player-Rating-Predictions
 
-Dataset Used
+# Dataset Used
 https://www.prokabaddi.com/stats
 
-Team Participants:
+# Team Participants:
 1. Gomathi Sengodan
 2. Ankur kumar sinha
 3. Gnanasekaran B
 
-Description:
+# Description:
 
 Predict the winner of the tournament                           
 
@@ -28,14 +27,14 @@ Predict the player with the highest SUCCESSFUL RAID percentage
 
 Predict the player with the highest SUCCESSFUL TACKLE percentage
 
-Models
-Linear Regression 
+# Models
+Linear Regression and crossvalidation techniques
 
-Final Results:
+# Final Results:
 
-Player predictions:
+# Player predictions:
 
-1. Top 5 based on Successful raids so far [Top- Naveen Kumar- Delhi ]
+# 1. Top 5 based on Successful raids so far [Top- Naveen Kumar- Delhi ]
 
 	name	rating
 	
@@ -50,7 +49,7 @@ Player predictions:
 5	siddharth	-0.296914
 
 
-2. Top 5 based on Successful tackles so far [Top - Sandeep kumar Dhull - jaipur]
+ # 2. Top 5 based on Successful tackles so far [Top - Sandeep kumar Dhull - jaipur]
 
 name	rating
 
@@ -65,7 +64,7 @@ name	rating
 5	Baldev	1.144783
 
 
-3. Top 5 based on Successful raid percent so far [Top - pardeep narwal ]
+# 3. Top 5 based on Successful raid percent so far [Top - pardeep narwal ]
 
 1	pardeepnar	-25.860695
 
@@ -78,7 +77,7 @@ name	rating
 5	siddharth	-7.785477
 
 
-4. Top 5 based on Successful tackle percent so far [Top - sonu JAGLAN gurajat]
+# 4. Top 5 based on Successful tackle percent so far [Top - sonu JAGLAN gurajat]
 
 1	sonugf	-0.303446
 
@@ -91,9 +90,9 @@ name	rating
 5	bharad	14.481338
 
 
-Team predictions
+# Team predictions
 
-1. Based on Super performance , Jaipur tops
+# 1. Based on Super performance , Jaipur tops
 
 Super Perf	Teams
 
@@ -107,7 +106,7 @@ Super Perf	Teams
 
 5	8.998291	Patna Pirates
 
-2.Based on successful raids  U mumba tops
+# 2.Based on successful raids  U mumba tops
 
 Successful Raids	Teams
 
@@ -122,7 +121,7 @@ Successful Raids	Teams
 5	309.034668	Bengaluru Bulls
 
 
-3. Puneri Paltan tops based on Successful tackles
+# 3. Puneri Paltan tops based on Successful tackles
 
 Successful Tackles	Teams
 
@@ -137,9 +136,11 @@ Successful Tackles	Teams
 5	181.0	Haryana Steelers
 
 
-Winner prediction:
+# Winner prediction:
+Based on player performance and team performance predictions and considering the team's current standings in season 7
+winners are choosen as below.
 
-Team standings on oct 2nd. Below teams are qualified to Q-final
+# Team standings on oct 2nd. Below teams are qualified to Q-final
 
 1. Delhi
 2. Bengal 
@@ -148,7 +149,7 @@ Team standings on oct 2nd. Below teams are qualified to Q-final
 5. Bengaluru Bulls
 
 
-Winners in order
+# Winners in order 
 
 1. Dabang Delhi - Winner
 2. U mumba [Runner 1]
